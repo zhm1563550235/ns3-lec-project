@@ -5,8 +5,7 @@
 3. 利用unix实用工具grep筛选特定信息。
 ##实验过程
 1. 用命令行读入自己的学号和姓名参数以及输出频率，周期性输出姓名和学号。程序如下：
-
-``#include "ns3/core-module.h"
+`#include "ns3/core-module.h"
  #include <iostream>
  using namespace ns3;
 
@@ -30,11 +29,10 @@ main (int argc, char *argv[])
 	cmd.Parse(argc,argv);
 
 	printHello(name,number,delay);
-	
 	Simulator::Stop(Seconds(5));
 	Simulator::Run ();
 	Simulator::Destroy ();
-}``
+}`
 
 声明三个变量，分别保存姓名、学号和输出频率，再调用函数Parse。其中程序
 

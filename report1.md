@@ -6,8 +6,7 @@
 ##实验过程
 1. 用命令行读入自己的学号和姓名参数以及输出频率，周期性输出姓名和学号。程序如下：
 
-``
- #include "ns3/core-module.h"
+`#include "ns3/core-module.h"
  #include <iostream>
  using namespace ns3;
 
@@ -35,7 +34,7 @@ main (int argc, char *argv[])
 	Simulator::Stop(Seconds(5));
 	Simulator::Run ();
 	Simulator::Destroy ();
-}``
+}`
 
 声明三个变量，分别保存姓名、学号和输出频率，再调用函数Parse。其中程序
 
@@ -53,8 +52,8 @@ main (int argc, char *argv[])
 ``cmd:
 ./waf --run="scratch/hello-simulator --name=zhm --number=20134368 --delay=0.5"
 ``
-输出结果如下所示。首先输出当前时间，然后依次Hello名字和学号。延迟为0.5，运行5s结束，所以输出了10次。
 
+输出结果如下所示。首先输出当前时间，然后依次Hello名字和学号。延迟为0.5，运行5s结束，所以输出了10次。
 ![命令行读入参数]（http://7xrn7f.com1.z0.glb.clouddn.com/16-6-18/13506989.jpg）
 在命令行中输入：
 

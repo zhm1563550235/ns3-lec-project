@@ -55,7 +55,8 @@ main (int argc, char *argv[])
 ``
 
 输出结果如下所示。首先输出当前时间，然后依次Hello名字和学号。延迟为0.5，运行5s结束，所以输出了10次。
-![命令行读入参数]（http://7xrn7f.com1.z0.glb.clouddn.com/16-6-18/13506989.jpg）
+
+[命令行读入参数]（http://7xrn7f.com1.z0.glb.clouddn.com/16-6-18/13506989.jpg）
 在命令行中输入：
 
 ``cmd:
